@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> A Small Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game">
+
+    <div class="scene-image">
+  <img id="sceneImg" src="assets/anz.jpg" alt="scene">
+</div>
+
+    <div class="dialogue-box">
+      <p id="dialogue"></p>
+    </div>
+
+    <div class="choices" id="choices"></div>
+
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+        <img id="modalImg" />
+      <span class="close" onclick="closeModal()">✖</span>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
