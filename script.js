@@ -14,7 +14,7 @@ function setBackground(bg) {
 const scenes = {
   0: {
     bg: "#4facfe",
-    img: "assets/anz.jpg",
+    img: "anz.jpg",
     text: "You just finished a hard day of work at ANZ, picking up calls and dealing with broke customers.\n\nHow do you feel?",
     options: [
       { text: "Tired", next: 1 },
@@ -26,7 +26,7 @@ const scenes = {
 
   1: {
     bg: "linear-gradient(135deg, #fbc2eb, #a6c1ee, #fddb92)",
-    img: "assets/pie.jpg",
+    img: "pie.jpg",
     text: "You're super hungry and finally home. You have a mug waiting for you.\n\nWhat food do you decide to get instead?",
     options: [
       { text: "Creamy chicken pie", next: 2 },
@@ -38,7 +38,7 @@ const scenes = {
 
   2: {
     bg: "linear-gradient(180deg, #a8e063, #56ab2f)",
-    img: "assets/in-car.jpg",
+    img: "in-car.jpg",
     text: "You're walking back to your car. As you approach, you notice a baby orangutan sitting inside.",
     options: [
       { text: "Panic and run", fail: "You left a baby orangutan alone in your car." },
@@ -51,7 +51,7 @@ const scenes = {
   "3a": {
     bg: "linear-gradient(180deg, #a8e063, #56ab2f)",
     text: "You stay calm. The orangutan watches you carefully.",
-    img: "assets/happy.jpg",
+    img: "happy.jpg",
     options: [
       { text: "Talk softly", next: 4 },
       { text: "Yell for help", fail: "Sudden noise scared it." },
@@ -63,7 +63,7 @@ const scenes = {
   "3b": {
     bg: "linear-gradient(180deg, #a8e063, #56ab2f)",
     text: "You call for help. The orangutan relaxes slightly.",
-    img: "assets/happy.jpg",
+    img: "happy.jpg",
     options: [
       { text: "Wait patiently", next: 4 },
       { text: "Try to grab it", fail: "It got overstimulated." },
@@ -75,7 +75,7 @@ const scenes = {
   4: {
     bg: "linear-gradient(135deg, #fddb92, #d1fdff)",
     text: "The orangutan climbs out and gently offers you a card.\n\nDo you accept it?",
-    img: "assets/orangutan.jpg",
+    img: "orangutan.jpg",
     options: [
       { text: "Yes", next: 5 },
       { text: "Ask where it's from", next: 5 },
@@ -86,7 +86,7 @@ const scenes = {
 
   5: {
     bg: "linear-gradient(135deg, #ff9a9e, #fecfef)",
-    img: "assets/sagar.jpg",
+    img: "sagar.jpg",
     text: "You open the letter.\n\n\It's a card from Sagar",
     options: [
       { text: "Continue", next: 6 }
@@ -95,7 +95,7 @@ const scenes = {
 
   6: {
     bg: "linear-gradient(180deg, #df072bff, #ff7eb3)",
-    img: "assets/bear.gif",
+    img: "bear.gif",
     text: "Will you be my Valentine?",
     options: [
       { text: "Yes", action: "yes" },
@@ -105,7 +105,7 @@ const scenes = {
 
   7: {
     bg: "linear-gradient(135deg, #ff9a9e, #fecfef)",
-    img: "assets/handheld.gif",
+    img: "handheld.gif",
     text: "Pick a day",
     options: [
         { text: "Feb 14", next: 8 },
@@ -116,7 +116,7 @@ const scenes = {
     },
     8: {
     bg: "linear-gradient(135deg, #ff758c, #ff7eb3)",
-    img: "assets/huggie.gif",
+    img: "huggie.gif",
     text: "I love you",
     options: [] 
     }
@@ -164,7 +164,7 @@ function renderScene() {
 
 function showFail(message) {
   modalText.innerText = message;
-  modalImg.src = "assets/sad.jpg";
+  modalImg.src = "sad.jpg";
   modalImg.style.display = "block";
   modal.style.display = "flex";
 }
