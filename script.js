@@ -96,7 +96,7 @@ const scenes = {
   6: {
     bg: "linear-gradient(180deg, #df072bff, #ff7eb3)",
     img: "bear.gif",
-    text: "Will you be my Valentine?",
+    text: "Would you like to be my Valentine?",
     options: [
       { text: "Yes", action: "yes" },
       { text: "No", action: "no" }
@@ -110,7 +110,7 @@ const scenes = {
     options: [
         { text: "Feb 14", next: 8 },
         { text: "Feb 15", next: 8  },
-        { text: "Feb 7", next: 8  },
+        { text: "Oi idk", next: 8  },
         { text: "FUCK KNOWS W THE PARENTS", next: 8  }
     ]
     },
