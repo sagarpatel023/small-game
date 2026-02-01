@@ -27,7 +27,7 @@ const scenes = {
   1: {
     bg: "linear-gradient(135deg, #fbc2eb, #a6c1ee, #fddb92)",
     img: "pie.jpg",
-    text: "You're super hungry and finally home. You have a mug waiting for you.\n\nWhat food do you decide to get instead?",
+    text: "You're super hungry and you have mug waiting for you.\n\nWhat food do you decide to get instead?",
     options: [
       { text: "Creamy chicken pie", next: 2 },
       { text: "Taco Bell", next: 2 },
